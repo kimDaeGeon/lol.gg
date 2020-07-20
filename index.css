@@ -43,8 +43,8 @@ li{
 
 
 .lane{
-    transition: color 1s;
-    transition: background-color 1s;
+    transition: color 1.5s;
+    transition: background-color 1.5s;
 }
 .lane > a{
     color: white;
@@ -57,5 +57,5 @@ li{
 }
 .lane:hover{
     background-color: white;
-    
+    color: black;
 }
