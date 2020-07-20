@@ -1,11 +1,17 @@
 html{
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(27, 27, 27);
     color: white;
     margin-left: 25px;
     margin-right: 25px;
 }
 
 .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -23,26 +29,37 @@ html{
 .logo > a:visited{
     color: rgb(194,143,44)
 }
+.logo > img{
+    top: 0;
+    left: 0;
+    right: 0;
 
-ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-li{
-    margin: 0,0,0,0;
-    padding: 0,0,0,0;
-    border: 0;
-    float: left;
+    margin: 0px auto;
+    position: absolute;
+
+    
+    max-height: 100%;
+    width: auto;
+    height: 500px;
+    z-index: -10
 }
 
+
+/**/
+.champion-analysis{
+    color: rgb(194,143,44);
+}
 .champions{
     display: flex;
     justify-content: space-around;
 }
-
-
 .lane{
+    display: flex;
+    flex-direction: column;
+    
+
+    width: 180px;
+    height: 180px;
     transition: color 1.5s;
     transition: background-color 1.5s;
 }
@@ -58,4 +75,8 @@ li{
 .lane:hover{
     background-color: white;
     color: black;
+}
+.lane > h3{
+    margin: 0 auto;
+    margin-top: 10px
 }
