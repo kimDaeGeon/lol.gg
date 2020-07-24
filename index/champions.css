@@ -1,0 +1,50 @@
+.statistics > h2, .lck > h2, .champion-analysis > h2{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.champion-analysis{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    color: rgb(194,143,44);
+
+    width: 100%;
+    height: 300px;
+}
+
+.champions{
+    display: flex;
+    justify-content: center;
+}
+.lane{
+    display: flex;
+    flex-direction: column; 
+
+    width: 180px;
+    height: 180px;
+    transition: color 1.5s;
+    transition: background-color 1.5s;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lane > a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.lane > a:visited{
+    color: white;
+    text-decoration: none;
+}
+.lane:hover{
+    background-color: white;
+    color: black;
+}
+.lane > h3{
+    margin: 0 auto;
+    margin-top: 10px
+}
