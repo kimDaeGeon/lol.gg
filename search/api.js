@@ -1,0 +1,1 @@
+export var API_KEY = "RGAPI-29ae83fb-99e1-4698-ab07-fd3fb2e7b9fc";

@@ -13,6 +13,8 @@
 
         <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
         <script src="index/statistics.js"></script>
+
+        <script src="index.js"></script>
         
     </head>
 
@@ -33,7 +35,7 @@
             <!-- SEARCH BOX -->
             <form class="search">
                 <input id="summoner-name" type="text">
-                <input id="search-btn" type="button" value=".LOL">
+                <input id="search-btn" type="button" value=".LOL" onclick="Search()">
             </form>
         </div>
 
@@ -103,24 +105,28 @@
             <h2>LCK</h2>
             <div class="teams">
                 <div class="row">
-                    <div class="team" id="drx">1 DragonX</div>
-                    <div class="team" id="kt">KT</div>
+                    <div class="team" id="drx">
+                        <div class="name">1 DragonX</div>
+                        <div class="score">10승 1패</div>
+                    </div>
+                    
+                    <div class="team" id="kt">6 KT</div>
                 </div>
                 <div class="row">
                     <div class="team" id="dwg">2 Damwon</div>
-                    <div class="team" id="dyn">Dynamics </div>
+                    <div class="team" id="dyn">7 Dynamics </div>
                 </div>
                 <div class="row">
-                    <div class="team" id="gen">GenG</div>
-                    <div class="team" id="sb">SandBox</div>
+                    <div class="team" id="gen">3 GenG</div>
+                    <div class="team" id="sb">8 SandBox</div>
                 </div>
                 <div class="row">
-                    <div class="team" id="t1">T1</div>
-                    <div class="team" id="sp">SeolHaeOnePrince</div>
+                    <div class="team" id="t1">4 T1</div>
+                    <div class="team" id="sp">9 SeolHaeOnePrince</div>
                 </div>
                 <div class="row">
-                    <div class="team" id="af">AfreecaFreecs</div>
-                    <div class="team" id="hle">HanhwaLifeEsports</div>
+                    <div class="team" id="af">5 AfreecaFreecs</div>
+                    <div class="team" id="hle">10 HanhwaLifeEsports</div>
                 </div>
             </div>
         </div>
